@@ -22,6 +22,14 @@ Counted the number of occurrences of each customer. Depending on the count of oc
 7. Click Next
 8. Click Finish
 
+**Step 4:** Change the path in CsvReader class according your path
+
+**Step 5:** Change the path in CsvWriter class according your path
+
+**Step 6:** Run the Main class in IDE
+
+Get the output csv file
+
 ### Prerequisites
 
 **1. Java**
