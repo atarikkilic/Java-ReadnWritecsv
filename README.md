@@ -22,9 +22,17 @@ Counted the number of occurrences of each customer. Depending on the count of oc
 7. Click Next
 8. Click Finish
 
-**Step 4:** Change the path in CsvReader class according your path
+**Step 4:** Change the path in CsvReader class according to your path
 
-**Step 5:** Change the path in CsvWriter class according your path
+```java
+String fileName = "C://Users//ekilabd//OneDrive - Ericsson//Documents//GitHub//Java-ReadnWritecsv//input-data.csv";
+```
+
+**Step 5:** Change the path in CsvWriter class according to your path
+
+```java
+new FileWriter("C://Users//ekilabd//OneDrive - Ericsson//Documents//GitHub//Java-ReadnWritecsv//output-data.csv")
+```
 
 **Step 6:** Run the Main class in IDE
 
