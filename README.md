@@ -1,7 +1,7 @@
 # Java-ReadnWritecsv
 
-This project read a input csv file using the CsvReader class. Parsed the data from the csv file to extract customers who played the songs on a particular date(02-02-2022).
-Counted the number of occurrences of each customer. Depending on the count of occurences, wrote the updated variables to a output csv file.
+This project read a input csv file using the CsvReader class. Parsed the data from the csv file to extract customers who played the songs on a particular date (Feb 02, 2022).
+Counted the number of occurrences of each customer. Depending on the count of occurrences, wrote the updated variables to a output csv file.
 
 ## Getting Started
 
