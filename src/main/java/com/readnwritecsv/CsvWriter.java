@@ -32,6 +32,7 @@ public class CsvWriter {
         	String[] row3 = {String.valueOf(clientCountThree), String.valueOf(distinctPlayCountThree)};
         	writer.writeNext(row3);
         	
+        	System.out.println("Output csv file created successfully");
         }
         
         //If it occurs during the writing of the CSV file and prints the stack trace to the console
