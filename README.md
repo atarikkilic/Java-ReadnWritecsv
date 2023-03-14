@@ -15,19 +15,23 @@ This project read
 
 **1. Java**
 
+```https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html```
 
-**2. Opencsv**
+**2. Eclipse IDE**
+
+```https://www.eclipse.org/downloads/```
+
+**3. Opencsv**
 
 Opencsv is an easy-to-use CSV (comma-separated values) parser library for Java. Adding this dependency in pom.xml 
 
 Maven:
 ```xml
 <dependency>
-  <groupId>io.woo</groupId>
-  <artifactId>htmltopdf</artifactId>
-  <version>1.0.8</version>
-  <scope>compile</scope>
-</dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>5.3</version>
+  </dependency>
 ```
 
 
