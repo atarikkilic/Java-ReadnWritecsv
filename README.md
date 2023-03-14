@@ -1,4 +1,4 @@
-# Java-ReadnWritecsv
+# Java-ReadnWritecsv (Req.1)
 
 This project read a input csv file using the CsvReader class. Parsed the data from the csv file to show distribution of count of played distinct songs per client count on a particular date (Feb 02, 2022).
 Counted the number of occurrences of each customer. Depending on the count of occurrences, wrote the updated variables (client_count and distinct_play_count) to a output csv file.
@@ -69,3 +69,10 @@ Maven:
 * [Java](https://www.java.com/en/download/) - Programming Language
 * [Maven](https://maven.apache.org/index.html) - Open-Source Build Tool
 * [Eclipse](https://www.eclipse.org/) - IDE
+
+
+## SQL Query (Req.2)
+
+```sql
+SELECT COUNT(DISTINCT clientId) AS client_count, COUNT(DISTINCT songId) AS distinct_play_count FROM table WHERE time='2.02.2022';
+```
